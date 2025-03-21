@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header {
+    background-color: rgba(243, 215, 183, 1);
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header .container nav {
+    display: flex;
+    gap: 40px;
+}
+
+header .container nav a {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    color: rgba(51, 51, 51, 1);
+    text-decoration: none;
+}
+
+.hero .container {
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.coffee {
+    width: 464px;
+    height: 367px;
+}
+
+.coffee h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.coffee p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    margin-top: 47px;
+}
+
+.coffee .btn {
+    width: 193px;
+    height: 51px;
+    border-radius: 100px;
+    background: rgba(10, 119, 95, 1);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 47px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.coffee .btn:hover {
+    transform: scale(1.1);
+}
+
+.hero {
+    background-color: rgba(243, 215, 183, 1);
+    padding-top: 50px;
+}
+
+.hero .container img:nth-child(1) {
+    position: absolute;
+    top: -10px;
+    right: -64px;
+}
+
+.hero .container img:nth-child(2) {
+    position: absolute;
+    right: 360px;
+    top: -50px;
+    animation-name: circleimg;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circleimg {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.hero2 {
+    background-color: rgba(248, 248, 242, 1);
+    padding-top: 120px;
+}
+
+.hero2 .container {
+   width: 90%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.hero2 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 40%;
+}
+
+.danche {
+    width: 300px;
+}
+
+.danche h3 {
+    font-size: 30px;
+}
+
+.danche p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.hero3 {
+    background-color: rgba(248, 248, 242, 1);
+    padding-top: 120px;
+}
+.box{
+    width: 300px;   
+    text-align: center;
+    width: 50%;
+}
+.box h3{
+    font-size: 30px;
+}
+.box p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.hero4{
+    background-color: rgba(248, 248, 242, 1);
+    padding-top: 120px;
+}
+.box1{
+    width: 300px;   
+    text-align: center;
+    width: 50%;
+}
+.box1 h3{
+    font-size: 30px;
+}
+.box1 p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.hero5{
+    background-color: rgba(248, 248, 242, 1);
+    padding-top: 120px;
+}
+.box2{
+    width: 300px;   
+    text-align: center;
+    width: 50%;
+}
+.box2 h3{
+    font-size: 30px;
+}
+.box2 p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+footer .container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    text-align: center;   
+}
